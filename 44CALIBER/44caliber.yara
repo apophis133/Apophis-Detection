@@ -8,8 +8,8 @@ rule caliber44 {
    strings:
         $x1 = "\\44CALIBER" ascii
 
-        $s1 = ":eye: IP:" wide
-        $s2 = ":file_folder: Grabbed Files" wide
+        $s1 = ":eye: IP:" fullword wide
+        $s2 = ":file_folder: Grabbed Files" fullword wide
         $s3 = ":cookie: Cookies -" fullword wide
         $s4 = ":credit_card: CC -" fullword wide
         $s5 = ":spy: NEW LOG FROM -" fullword wide
